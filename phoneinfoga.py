@@ -27,7 +27,8 @@ except Exception as e:
     sys.exit()
 
 parser = argparse.ArgumentParser(description="Advanced information gathering tool for phone numbers (https://github.com/sundowndev/PhoneInfoga) version {}".format(__version__),
-                                 usage='%(prog)s -n <number> [options]')
+                                 usage='%(prog)s -n <7303312835
+> [options]')
 
 parser.add_argument('-n', '--number', metavar='number', type=str,
                     help='The phone number to scan (E164 or international format)')
